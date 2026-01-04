@@ -1,16 +1,33 @@
-# React + Vite
+# Radar 🛡️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Interactive RAID Log & Risk Manager**
 
-Currently, two official plugins are available:
+Radar is a modern, visual tool for tracking project **Risks, Assumptions, Issues, and Dependencies (RAID)**. Unlike hidden spreadsheets, Radar uses an interactive Kanban board to make risks visible, manageable, and collaborative.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## React Compiler
+* **📋 Kanban Workflow:** Organize risks by status (*New, Monitoring, Mitigating, Closed*).
+* **🐉 Drag-and-Drop:** Intuitively move risk cards across columns as they progress.
+* **🚦 Visual Risk Scoring:** Automatic color-coding and badges for **Probability** and **Impact** (High/Medium/Low).
+* **⚡ Quick Capture:** Fast modal interface to log new items without losing context.
+* **🔦 Focus Mode:** High-probability risks are highlighted with distinct red borders for immediate visibility.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React (v18+)
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS (v3)
+* **Icons:** Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+* Node.js (v18 or higher)
+* npm (v9 or higher)
+
+### Local Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ayushjain82/Radar.git](https://github.com/ayushjain82/Radar.git)
+   cd Radar
